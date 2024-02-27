@@ -105,7 +105,7 @@ function draw(){
             gameState = "lost"
         }
     
-        if (score==1000){
+        if (score==100){
             player.visible = false;
             enemyGroup.destroyEach();
             fireGroup.destroyEach();
